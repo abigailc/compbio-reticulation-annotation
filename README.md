@@ -42,6 +42,6 @@ Anyways, here's how to get it to work locally
 
 1. clone the repository
 2. make sure you have OptRoot.linux and RangerDTL.linux downloaded and in the same folder as the code (or executable in $PATH). Downloadable at http://compbio.engr.uconn.edu/software/RANGER-DTL/
-3. run $  python annotate_nodes_main.py test/ -p SOD_new -b gene_boots/ -s species_best/
+3. run $  python annotate_nodes_main.py test_data/ -p SOD_new -b gene_boots/ -s species_best/
 4. watch as it takes some time to run (the slow step is RangerDTL actually computing the reticulations, at least on my computer) - I've uploaded some of the smaller datasets so it shouldn't take too long.
 5. view the output in the results folder. the trees should open nicely in FigTree (available at http://tree.bio.ed.ac.uk/software/figtree/)
