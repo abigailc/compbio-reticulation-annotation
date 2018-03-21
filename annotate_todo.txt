@@ -1,0 +1,8 @@
+
+TODO
+0) I've saved the taxonomic information (in annotate_parseranger.ensure_equal_tips) associated with every tip; it would be nice to add it back in to the annotated trees after processing through rangerDTL.
+1) re-run with different parameters on the rangerDTL - we are seeing a huge number of transfers in each bootstrap tree. Is this true or due to low penalty to id a transfer event?
+2) fix tracking of overall bootstrap support for the species tree annotation (currently it does not track)
+3) refine the "polarity of transfer" detector for use with the gene_bootstrap trees
+4) run this on all datasets of all genes that I have
+5) this found that the overall_subsampled_trees have tips in the gene tree that are not present in the species tree; those .fasta files need to be manually pruned and then re-aligned and re-run through RAxML.
