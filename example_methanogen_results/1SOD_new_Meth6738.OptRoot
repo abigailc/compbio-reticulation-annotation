@@ -1,0 +1,9 @@
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((MethanothermobacterXX0XXthermautotrophicusXX0XXstrXX0XXDeltaXX0XXH_134641,MethanothermobacterXX0XXthermautotrophicus_850989934),(MethanothermobacterXX0XXspXX0XXCaT2_851311840,(MethanothermobacterXX0XXmarburgensis_503060454,((MethanobacteriumXX0XXspXX0XXMB1_566004934,(MethanobacteriumXX0XXformicicum_851146002,(MethanobacteriumXX0XXspXX0XXMaddingleyXX0XXMBC34_495789037,MethanobacteriumXX0XXformicicum_490129440))),(Methanobacterium_851135399,((MethanobacteriumXX0XXspXX0XXSMAXX0XX27_851347201,MethanobacteriumXX0XXlacus_503409941),MethanobacteriumXX0XXpaludis_503591674))))));
+((((MethanobacteriumXX0XXspXX0XXSMAXX0XX27_851347201,MethanobacteriumXX0XXlacus_503409941),MethanobacteriumXX0XXpaludis_503591674),((((MethanothermobacterXX0XXthermautotrophicusXX0XXstrXX0XXDeltaXX0XXH_134641,MethanothermobacterXX0XXthermautotrophicus_850989934),MethanothermobacterXX0XXspXX0XXCaT2_851311840),MethanothermobacterXX0XXmarburgensis_503060454),(MethanobacteriumXX0XXspXX0XXMB1_566004934,(MethanobacteriumXX0XXformicicum_851146002,(MethanobacteriumXX0XXspXX0XXMaddingleyXX0XXMBC34_495789037,MethanobacteriumXX0XXformicicum_490129440))))),Methanobacterium_851135399);
+
+
+The minimum reconciliation cost is: 12
+The total number of optimal rootings is: 2

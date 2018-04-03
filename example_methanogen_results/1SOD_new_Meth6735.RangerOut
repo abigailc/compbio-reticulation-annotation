@@ -1,0 +1,115 @@
+
+
+ ------------ Reconciliation for Gene Tree 1 (rooted) -------------
+Species Tree: 
+(((Methanosaeta_concilii,Methanosaeta_harundinacea)n3,(((Methanosarcina_sp_MTP4,(Methanosarcina_thermophila,((Methanosarcina_barkeri,(Methanosarcina_vacuolata,Methanosarcina_sp_Kolksee)n10)n9,((Methanosarcina_sp_2_H_A_1B_4,(((Methanosarcina_siciliae,(Methanosarcina_siciliae_HI350,Methanosarcina_siciliae_T4_M)n16)n15,(Methanosarcina_acetivorans_C2A,Methanosarcina_acetivorans)n17)n14,(((Methanosarcina_mazei,Methanosarcina_soligelidi)n20,Methanosarcina_mazei_Go1)n19,Methanosarcina_horonobensis)n18)n13)n12,Methanosarcina)n11)n8)n7)n6,((Methanomethylovorans_hollandica,Methanolobus_psychrophilus)n22,Methanosalsum_zhilinae)n21)n5,(((((Methanoculleus_bourgensis,Methanoculleus_bourgensis_MS2)n27,(Methanoculleus_marisnigri,Methanoculleus_sp_MH98A)n28)n26,((Methanolinea_tarda,((Methanoregula_formicica,Methanoregula_formicica_SMSP)n32,Methanoregula_boonei)n31)n30,Methanospirillum_hungatei)n29)n25,(Methanomassiliicoccus_luminyensis,(((Methanothermobacter_thermautotrophicus,Methanothermobacter_thermautotrophicus_str_Delta_H)n36,(Methanothermobacter_sp_CaT2,Methanothermobacter_marburgensis)n37)n35,(Methanobacterium,((Methanobacterium_paludis,(Methanobacterium_sp_SMA_27,Methanobacterium_lacus)n41)n40,(Methanobacterium_sp_Maddingley_MBC34,(Methanobacterium_sp_MB1,Methanobacterium_formicicum)n43)n42)n39)n38)n34)n33)n24,Methanocella_conradii)n23)n4)n2,Euryarchaeota_archaeon_55_53)n1;
+
+Gene Tree: 
+((Methanosarcina_851263570,Methanosarcina_851245936)m2,((Methanosarcina_851253753,Methanosarcina_sp_2_H_A_1B_4_851305795)m6,(((Methanolinea_tarda_494524436,(((((Methanoregula_boonei_501055580,(Methanoregula_formicica_SMSP_432138844,Methanoregula_formicica_851214752)m19)m17,((Methanoregula_boonei_501055807,Methanoregula_formicica_505098087)m23,Methanospirillum_hungatei_499769180)m22)m16,((Methanosaeta_harundinacea_504398685,Methanosaeta_concilii_503485395)m28,((Methanoculleus_marisnigri_500170118,Methanoculleus_sp_MH98A_851216433)m32,(Methanoculleus_bourgensis_MS2_396938410,Methanoculleus_bourgensis_851202317)m35)m31)m27)m15,Methanomassiliicoccus_luminyensis_518007156)m14,((Methanobacterium_sp_MB1_566004934,(Methanobacterium_formicicum_851146002,(Methanobacterium_formicicum_490129440,Methanobacterium_sp_Maddingley_MBC34_495789037)m44)m42)m40,(((Methanobacterium_paludis_503591674,(Methanobacterium_sp_SMA_27_851347201,Methanobacterium_lacus_503409941)m51)m49,Methanobacterium_851135399)m48,((Methanothermobacter_sp_CaT2_851311840,Methanothermobacter_marburgensis_503060454)m56,(Methanothermobacter_thermautotrophicus_850989934,Methanothermobacter_thermautotrophicus_str_Delta_H_134641)m59)m55)m47)m39)m13)m11,((Methanosarcina_siciliae_851322858,Methanosarcina_siciliae_HI350_805352307)m63,((Methanosarcina_siciliae_851311539,Methanosarcina_siciliae_T4_M_805348073)m67,(Methanosarcina_acetivorans_851003244,Methanosarcina_acetivorans_C2A_19915446)m70)m66)m62)m10,((((Methanosarcina_soligelidi_850530037,Methanosarcina_mazei_505225435)m76,(Methanosarcina_mazei_850500717,Methanosarcina_mazei_Go1_20907013)m79)m75,(Methanosarcina_horonobensis_851269498,((Methanosarcina_barkeri_499627762,Methanosarcina_barkeri_851206779)m85,(((Methanosarcina_sp_Kolksee_851291493,Methanosarcina_vacuolata_851231540)m90,Methanosarcina_barkeri_851227132)m89,Methanosarcina_thermophila_851303466)m88)m84)m82)m74,(Methanolobus_psychrophilus_504866367,(Methanosalsum_zhilinae_503664151,(Methanosarcina_sp_MTP4_851315789,Methanomethylovorans_hollandica_505137422)m99)m97)m95)m73)m9)m5)m1;
+
+Reconciliation:
+Methanosarcina_851263570: Leaf Node
+Methanosarcina_851245936: Leaf Node
+m2 = LCA[Methanosarcina_851263570, Methanosarcina_851245936]: Duplication, Mapping --> Methanosarcina
+Methanosarcina_851253753: Leaf Node
+Methanosarcina_sp_2_H_A_1B_4_851305795: Leaf Node
+m6 = LCA[Methanosarcina_851253753, Methanosarcina_sp_2_H_A_1B_4_851305795]: Transfer, Mapping --> Methanosarcina_sp_2_H_A_1B_4, Recipient --> Methanosarcina
+Methanolinea_tarda_494524436: Leaf Node
+Methanoregula_boonei_501055580: Leaf Node
+Methanoregula_formicica_SMSP_432138844: Leaf Node
+Methanoregula_formicica_851214752: Leaf Node
+m19 = LCA[Methanoregula_formicica_SMSP_432138844, Methanoregula_formicica_851214752]: Speciation, Mapping --> n32
+m17 = LCA[Methanoregula_boonei_501055580, Methanoregula_formicica_851214752]: Speciation, Mapping --> n31
+Methanoregula_boonei_501055807: Leaf Node
+Methanoregula_formicica_505098087: Leaf Node
+m23 = LCA[Methanoregula_boonei_501055807, Methanoregula_formicica_505098087]: Speciation, Mapping --> n31
+Methanospirillum_hungatei_499769180: Leaf Node
+m22 = LCA[Methanoregula_boonei_501055807, Methanospirillum_hungatei_499769180]: Transfer, Mapping --> Methanospirillum_hungatei, Recipient --> n31
+m16 = LCA[Methanoregula_boonei_501055580, Methanospirillum_hungatei_499769180]: Speciation, Mapping --> n29
+Methanosaeta_harundinacea_504398685: Leaf Node
+Methanosaeta_concilii_503485395: Leaf Node
+m28 = LCA[Methanosaeta_harundinacea_504398685, Methanosaeta_concilii_503485395]: Speciation, Mapping --> n3
+Methanoculleus_marisnigri_500170118: Leaf Node
+Methanoculleus_sp_MH98A_851216433: Leaf Node
+m32 = LCA[Methanoculleus_marisnigri_500170118, Methanoculleus_sp_MH98A_851216433]: Speciation, Mapping --> n28
+Methanoculleus_bourgensis_MS2_396938410: Leaf Node
+Methanoculleus_bourgensis_851202317: Leaf Node
+m35 = LCA[Methanoculleus_bourgensis_MS2_396938410, Methanoculleus_bourgensis_851202317]: Speciation, Mapping --> n27
+m31 = LCA[Methanoculleus_marisnigri_500170118, Methanoculleus_bourgensis_851202317]: Speciation, Mapping --> n26
+m27 = LCA[Methanosaeta_harundinacea_504398685, Methanoculleus_bourgensis_851202317]: Transfer, Mapping --> n26, Recipient --> n3
+m15 = LCA[Methanoregula_boonei_501055580, Methanoculleus_bourgensis_851202317]: Speciation, Mapping --> n25
+Methanomassiliicoccus_luminyensis_518007156: Leaf Node
+m14 = LCA[Methanoregula_boonei_501055580, Methanomassiliicoccus_luminyensis_518007156]: Transfer, Mapping --> Methanomassiliicoccus_luminyensis, Recipient --> n25
+Methanobacterium_sp_MB1_566004934: Leaf Node
+Methanobacterium_formicicum_851146002: Leaf Node
+Methanobacterium_formicicum_490129440: Leaf Node
+Methanobacterium_sp_Maddingley_MBC34_495789037: Leaf Node
+m44 = LCA[Methanobacterium_formicicum_490129440, Methanobacterium_sp_Maddingley_MBC34_495789037]: Transfer, Mapping --> Methanobacterium_formicicum, Recipient --> Methanobacterium_sp_Maddingley_MBC34
+m42 = LCA[Methanobacterium_formicicum_851146002, Methanobacterium_sp_Maddingley_MBC34_495789037]: Duplication, Mapping --> Methanobacterium_formicicum
+m40 = LCA[Methanobacterium_sp_MB1_566004934, Methanobacterium_sp_Maddingley_MBC34_495789037]: Speciation, Mapping --> n43
+Methanobacterium_paludis_503591674: Leaf Node
+Methanobacterium_sp_SMA_27_851347201: Leaf Node
+Methanobacterium_lacus_503409941: Leaf Node
+m51 = LCA[Methanobacterium_sp_SMA_27_851347201, Methanobacterium_lacus_503409941]: Speciation, Mapping --> n41
+m49 = LCA[Methanobacterium_paludis_503591674, Methanobacterium_lacus_503409941]: Speciation, Mapping --> n40
+Methanobacterium_851135399: Leaf Node
+m48 = LCA[Methanobacterium_paludis_503591674, Methanobacterium_851135399]: Speciation, Mapping --> n38
+Methanothermobacter_sp_CaT2_851311840: Leaf Node
+Methanothermobacter_marburgensis_503060454: Leaf Node
+m56 = LCA[Methanothermobacter_sp_CaT2_851311840, Methanothermobacter_marburgensis_503060454]: Speciation, Mapping --> n37
+Methanothermobacter_thermautotrophicus_850989934: Leaf Node
+Methanothermobacter_thermautotrophicus_str_Delta_H_134641: Leaf Node
+m59 = LCA[Methanothermobacter_thermautotrophicus_850989934, Methanothermobacter_thermautotrophicus_str_Delta_H_134641]: Speciation, Mapping --> n36
+m55 = LCA[Methanothermobacter_sp_CaT2_851311840, Methanothermobacter_thermautotrophicus_str_Delta_H_134641]: Speciation, Mapping --> n35
+m47 = LCA[Methanobacterium_paludis_503591674, Methanothermobacter_thermautotrophicus_str_Delta_H_134641]: Speciation, Mapping --> n34
+m39 = LCA[Methanobacterium_sp_MB1_566004934, Methanothermobacter_thermautotrophicus_str_Delta_H_134641]: Duplication, Mapping --> n34
+m13 = LCA[Methanoregula_boonei_501055580, Methanothermobacter_thermautotrophicus_str_Delta_H_134641]: Speciation, Mapping --> n33
+m11 = LCA[Methanolinea_tarda_494524436, Methanothermobacter_thermautotrophicus_str_Delta_H_134641]: Transfer, Mapping --> Methanolinea_tarda, Recipient --> n33
+Methanosarcina_siciliae_851322858: Leaf Node
+Methanosarcina_siciliae_HI350_805352307: Leaf Node
+m63 = LCA[Methanosarcina_siciliae_851322858, Methanosarcina_siciliae_HI350_805352307]: Speciation, Mapping --> n15
+Methanosarcina_siciliae_851311539: Leaf Node
+Methanosarcina_siciliae_T4_M_805348073: Leaf Node
+m67 = LCA[Methanosarcina_siciliae_851311539, Methanosarcina_siciliae_T4_M_805348073]: Speciation, Mapping --> n15
+Methanosarcina_acetivorans_851003244: Leaf Node
+Methanosarcina_acetivorans_C2A_19915446: Leaf Node
+m70 = LCA[Methanosarcina_acetivorans_851003244, Methanosarcina_acetivorans_C2A_19915446]: Speciation, Mapping --> n17
+m66 = LCA[Methanosarcina_siciliae_851311539, Methanosarcina_acetivorans_C2A_19915446]: Speciation, Mapping --> n14
+m62 = LCA[Methanosarcina_siciliae_851322858, Methanosarcina_acetivorans_C2A_19915446]: Duplication, Mapping --> n14
+m10 = LCA[Methanolinea_tarda_494524436, Methanosarcina_acetivorans_C2A_19915446]: Transfer, Mapping --> n14, Recipient --> Methanolinea_tarda
+Methanosarcina_soligelidi_850530037: Leaf Node
+Methanosarcina_mazei_505225435: Leaf Node
+m76 = LCA[Methanosarcina_soligelidi_850530037, Methanosarcina_mazei_505225435]: Speciation, Mapping --> n20
+Methanosarcina_mazei_850500717: Leaf Node
+Methanosarcina_mazei_Go1_20907013: Leaf Node
+m79 = LCA[Methanosarcina_mazei_850500717, Methanosarcina_mazei_Go1_20907013]: Transfer, Mapping --> Methanosarcina_mazei_Go1, Recipient --> Methanosarcina_mazei
+m75 = LCA[Methanosarcina_soligelidi_850530037, Methanosarcina_mazei_Go1_20907013]: Speciation, Mapping --> n19
+Methanosarcina_horonobensis_851269498: Leaf Node
+Methanosarcina_barkeri_499627762: Leaf Node
+Methanosarcina_barkeri_851206779: Leaf Node
+m85 = LCA[Methanosarcina_barkeri_499627762, Methanosarcina_barkeri_851206779]: Duplication, Mapping --> Methanosarcina_barkeri
+Methanosarcina_sp_Kolksee_851291493: Leaf Node
+Methanosarcina_vacuolata_851231540: Leaf Node
+m90 = LCA[Methanosarcina_sp_Kolksee_851291493, Methanosarcina_vacuolata_851231540]: Speciation, Mapping --> n10
+Methanosarcina_barkeri_851227132: Leaf Node
+m89 = LCA[Methanosarcina_sp_Kolksee_851291493, Methanosarcina_barkeri_851227132]: Speciation, Mapping --> n9
+Methanosarcina_thermophila_851303466: Leaf Node
+m88 = LCA[Methanosarcina_sp_Kolksee_851291493, Methanosarcina_thermophila_851303466]: Transfer, Mapping --> n9, Recipient --> Methanosarcina_thermophila
+m84 = LCA[Methanosarcina_barkeri_499627762, Methanosarcina_thermophila_851303466]: Duplication, Mapping --> n9
+m82 = LCA[Methanosarcina_horonobensis_851269498, Methanosarcina_thermophila_851303466]: Transfer, Mapping --> Methanosarcina_horonobensis, Recipient --> n9
+m74 = LCA[Methanosarcina_soligelidi_850530037, Methanosarcina_thermophila_851303466]: Speciation, Mapping --> n18
+Methanolobus_psychrophilus_504866367: Leaf Node
+Methanosalsum_zhilinae_503664151: Leaf Node
+Methanosarcina_sp_MTP4_851315789: Leaf Node
+Methanomethylovorans_hollandica_505137422: Leaf Node
+m99 = LCA[Methanosarcina_sp_MTP4_851315789, Methanomethylovorans_hollandica_505137422]: Transfer, Mapping --> Methanomethylovorans_hollandica, Recipient --> Methanosarcina_sp_MTP4
+m97 = LCA[Methanosalsum_zhilinae_503664151, Methanomethylovorans_hollandica_505137422]: Transfer, Mapping --> Methanomethylovorans_hollandica, Recipient --> Methanosalsum_zhilinae
+m95 = LCA[Methanolobus_psychrophilus_504866367, Methanomethylovorans_hollandica_505137422]: Speciation, Mapping --> n22
+m73 = LCA[Methanosarcina_soligelidi_850530037, Methanomethylovorans_hollandica_505137422]: Transfer, Mapping --> n18, Recipient --> n22
+m9 = LCA[Methanolinea_tarda_494524436, Methanomethylovorans_hollandica_505137422]: Speciation, Mapping --> n13
+m5 = LCA[Methanosarcina_851253753, Methanomethylovorans_hollandica_505137422]: Speciation, Mapping --> n12
+m1 = LCA[Methanosarcina_851263570, Methanomethylovorans_hollandica_505137422]: Speciation, Mapping --> n11
+
+The minimum reconciliation cost is: 62 (Duplications: 6, Transfers: 13, Losses: 11)
+Total number of optimal solutions: 48
+Total number of candidates for gene birth: 1

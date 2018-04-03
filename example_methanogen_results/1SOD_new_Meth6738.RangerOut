@@ -1,0 +1,37 @@
+
+
+ ------------ Reconciliation for Gene Tree 1 (rooted) -------------
+Species Tree: 
+(((((Methanobacterium_sp_Maddingley_MBC34,(Methanobacterium_formicicum,Methanobacterium_sp_MB1)n6)n5,((Methanobacterium_lacus,Methanobacterium_sp_SMA_27)n8,Methanobacterium_paludis)n7)n4,Methanobacterium)n3,((Methanothermobacter_marburgensis,Methanothermobacter_sp_CaT2)n10,(Methanothermobacter_thermautotrophicus_str_Delta_H,Methanothermobacter_thermautotrophicus)n11)n9)n2,Euryarchaeota_archaeon_55_53)n1;
+
+Gene Tree: 
+((Methanothermobacter_thermautotrophicus_str_Delta_H_134641,Methanothermobacter_thermautotrophicus_850989934)m2,(Methanothermobacter_sp_CaT2_851311840,(Methanothermobacter_marburgensis_503060454,((Methanobacterium_sp_MB1_566004934,(Methanobacterium_formicicum_851146002,(Methanobacterium_sp_Maddingley_MBC34_495789037,Methanobacterium_formicicum_490129440)m14)m12)m10,(Methanobacterium_851135399,((Methanobacterium_sp_SMA_27_851347201,Methanobacterium_lacus_503409941)m20,Methanobacterium_paludis_503591674)m19)m17)m9)m7)m5)m1;
+
+Reconciliation:
+Methanothermobacter_thermautotrophicus_str_Delta_H_134641: Leaf Node
+Methanothermobacter_thermautotrophicus_850989934: Leaf Node
+m2 = LCA[Methanothermobacter_thermautotrophicus_str_Delta_H_134641, Methanothermobacter_thermautotrophicus_850989934]: Speciation, Mapping --> n11
+Methanothermobacter_sp_CaT2_851311840: Leaf Node
+Methanothermobacter_marburgensis_503060454: Leaf Node
+Methanobacterium_sp_MB1_566004934: Leaf Node
+Methanobacterium_formicicum_851146002: Leaf Node
+Methanobacterium_sp_Maddingley_MBC34_495789037: Leaf Node
+Methanobacterium_formicicum_490129440: Leaf Node
+m14 = LCA[Methanobacterium_sp_Maddingley_MBC34_495789037, Methanobacterium_formicicum_490129440]: Transfer, Mapping --> Methanobacterium_formicicum, Recipient --> Methanobacterium_sp_Maddingley_MBC34
+m12 = LCA[Methanobacterium_formicicum_851146002, Methanobacterium_formicicum_490129440]: Duplication, Mapping --> Methanobacterium_formicicum
+m10 = LCA[Methanobacterium_sp_MB1_566004934, Methanobacterium_formicicum_490129440]: Speciation, Mapping --> n6
+Methanobacterium_851135399: Leaf Node
+Methanobacterium_sp_SMA_27_851347201: Leaf Node
+Methanobacterium_lacus_503409941: Leaf Node
+m20 = LCA[Methanobacterium_sp_SMA_27_851347201, Methanobacterium_lacus_503409941]: Speciation, Mapping --> n8
+Methanobacterium_paludis_503591674: Leaf Node
+m19 = LCA[Methanobacterium_sp_SMA_27_851347201, Methanobacterium_paludis_503591674]: Speciation, Mapping --> n7
+m17 = LCA[Methanobacterium_851135399, Methanobacterium_paludis_503591674]: Transfer, Mapping --> n7, Recipient --> Methanobacterium
+m9 = LCA[Methanobacterium_sp_MB1_566004934, Methanobacterium_paludis_503591674]: Speciation, Mapping --> n4
+m7 = LCA[Methanothermobacter_marburgensis_503060454, Methanobacterium_paludis_503591674]: Transfer, Mapping --> Methanothermobacter_marburgensis, Recipient --> n4
+m5 = LCA[Methanothermobacter_sp_CaT2_851311840, Methanobacterium_paludis_503591674]: Speciation, Mapping --> n10
+m1 = LCA[Methanothermobacter_thermautotrophicus_str_Delta_H_134641, Methanobacterium_paludis_503591674]: Speciation, Mapping --> n9
+
+The minimum reconciliation cost is: 12 (Duplications: 1, Transfers: 3, Losses: 1)
+Total number of optimal solutions: 1
+Total number of candidates for gene birth: 1
