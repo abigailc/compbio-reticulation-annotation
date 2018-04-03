@@ -22,9 +22,7 @@
 ###################
 #testing log
 """
-get sample of my data
-
-
+fixed error with pathnames
 
 
 """
