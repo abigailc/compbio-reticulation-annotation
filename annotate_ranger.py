@@ -1,5 +1,6 @@
+#module for annotate_nodes_main.py
 
-#update abigailc@leviathan march 20
+#update abigailc@leviathan april 1
 
 import os
 import re

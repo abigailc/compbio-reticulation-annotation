@@ -1,5 +1,5 @@
-
-#update abigailc@leviathan march 19
+#module for annotate_nodes_main.py
+#update abigailc@leviathan april 2 2018
 
 import glob
 
